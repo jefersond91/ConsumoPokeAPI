@@ -1,0 +1,81 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(235, 230, 230);
+        min-height: 100vh;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        gap: 10px;
+}
+
+#pokemon-wrapper{
+        background-color: #fff;
+        padding: 2rem;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px 10px #ccc;
+}
+
+#pokemon-wrapper img{
+        width: 200px;
+}
+
+#pokemon-wrapper p{
+        text-transform: uppercase;
+}
+
+form{
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 0.2rem;
+        display: flex;
+        height: 30px;
+        margin-bottom: 1.5rem;
+}
+
+form input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        display: block;
+        min-height: 100%;
+}
+form button{
+        border: none;
+        background: transparent;
+        display: flex;
+
+}
+
+form button img{
+        width: 20px;
+}
+
+#toast{
+        padding: 1rem;
+        width: 75vw;
+        margin: auto;
+        background-color: red;
+        color: white;
+        text-align: center;
+        position: absolute;
+        bottom: 100px;
+}
+
+#toast.escondido{
+        display: none;
+}
